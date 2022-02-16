@@ -1,0 +1,15 @@
+<% @flats.each do |flat| %>
+    <h1><%= flat.name%></h1>
+    <p>Address: <%= flat.address %></p>
+    <p>Description: <%= flat.description %></p>
+<% end %>
+
+<div class="card" style="width: 18rem;">
+  <img src="app/assets/images/airbnb.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<%# https://source.unsplash.com/random %>

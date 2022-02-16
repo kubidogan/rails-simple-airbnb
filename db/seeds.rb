@@ -9,7 +9,7 @@
 require 'faker'
 
 11.times do
-  Flat.create!(
+  Flat.create(
     name: Faker::Tea.variety,
     address: Faker::Address.full_address,
     description: Faker::Coffee.notes,
